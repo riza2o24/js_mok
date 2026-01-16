@@ -20,7 +20,7 @@
     width: 1920px;
     max-width: 1920px;
     margin: auto;
-    padding: 0 80px;
+    padding: 0 150px;
 }
 
 
@@ -93,15 +93,16 @@
 }
 
 .section__quti--paragrf{
-    width: 614px;
-    font-size: 85px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
     color: white;
+    font-family: "Cardo", serif;
 }
 
 .section__text--text{
-    font-size: 24px;
-    font-weight: 400;
+    width: 614px;
+    font-size: 64px;
+    font-weight: 300;
     color: white;
     font-family: "Cardo", serif;
 }
@@ -109,7 +110,7 @@
 .section__text--paragrf{
     width: 575px;
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 400;
     color: #B4C7E7;
     margin-bottom: 50px;
     margin-top: 30px;
@@ -163,7 +164,7 @@
 }
 
 .section__pej--paragrf{
-    color: #1B3764;
+    color: #B4C7E7;
     font-size: 18px;
     font-weight: 400;
 }
