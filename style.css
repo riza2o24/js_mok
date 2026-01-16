@@ -92,23 +92,23 @@
     margin-bottom: 20px;
 }
 
-
 .section__quti--paragrf{
+    width: 614px;
+    font-size: 85px;
+    font-weight: 700;
+    color: white;
+}
+
+.section__text--text{
     font-size: 24px;
     font-weight: 400;
     color: white;
     font-family: "Cardo", serif;
 }
 
-.section__text--text{
-    width: 614px;
-    font-size: 85;
-    font-weight: 700;
-    color: white;
-}
-
 .section__text--paragrf{
-    font-size: 65px;
+    width: 575px;
+    font-size: 19px;
     font-weight: 700;
     color: #B4C7E7;
     margin-bottom: 50px;
@@ -138,4 +138,32 @@
     font-size: 19px;
     font-weight: 700;
     font-family: "Cardo", serif;
+}
+
+
+.section__pej{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.section__pej--quti{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 7px;
+}
+
+.section__quti--peragrf{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cardo", serif;
+}
+
+.section__pej--paragrf{
+    color: #1B3764;
+    font-size: 18px;
+    font-weight: 400;
 }
