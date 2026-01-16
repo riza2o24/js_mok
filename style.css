@@ -1,15 +1,18 @@
 /* inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+
 
 /* cardo */
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
-
+/* font-family: "Cardo", serif; */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -40,4 +43,29 @@
     color: white;
     margin-left: 10px;
     margin-right: 35px;
+}
+
+
+.header_btn{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header_btn--ul{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.header_ul--link{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.header_btn--button{
+    padding: 14px 33px;
+    border: none;
+    background-color: #FFCA42;
 }
