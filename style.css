@@ -20,7 +20,7 @@
     width: 1920px;
     max-width: 1920px;
     margin: auto;
-    padding: 0 150px;
+    padding: 0 135px;
 }
 
 
@@ -367,3 +367,41 @@
     font-weight: 400;
     color: #1B3764;
 }
+
+/* hero3 */
+.hero3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    background-color: #1B3764;
+    margin-bottom: 120px;
+}
+
+.hero3__text{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Cardo", serif;
+    margin-bottom: 25px;
+}
+
+.hero3__paragrf{
+    width: 567px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B4C7E7;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.hero3__btn{
+    padding: 20px 52px;
+    border: 2px solid #FFCA42;
+    background: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
+
