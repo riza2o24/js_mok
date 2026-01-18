@@ -169,3 +169,78 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+
+/* hero */
+.hero{
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.hero__text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #1B3764;
+    margin-bottom: 80px;
+    font-family: "Cardo", serif;
+}
+
+.hero__box{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero__qoti--text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #1B3764;
+    margin-bottom: 15px;
+    font-family: "Cardo", serif;
+}
+
+.hero__qoti--paragrf{
+    width: 262px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B4C7E7;
+}
+
+.hero__salomat{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hero__salomat--quti{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+.hero__salomat--text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B3764;
+    font-family: "Cardo", serif;
+}
+
+.hero__salomat--paragrf{
+    font-size: 18px;
+    font-weight: 400;
+    color: #B4C7E7;
+}
+
+.hero__qoti--btn{
+    padding: 20px 52px;
+    border: 2px solid #FFCA42;
+    font-size: 19px;
+    font-weight: 700;
+    color: #1B3764;
+    background: none;
+}
+
