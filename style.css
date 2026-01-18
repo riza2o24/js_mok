@@ -556,3 +556,82 @@
     font-size: 24px;
     font-size: 500;
 }
+
+
+/* cards */
+
+.cards{
+    width: 100%;
+    height: 1016px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F8FF;
+    margin-bottom: 120px;
+}
+
+
+.cards__text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color:  #1B3764;
+    margin-bottom: 20px;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+
+.cardss{
+    width: 410px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 20px 30px 40px rgba(48, 48, 48, 0.158);
+}
+
+
+.cardss__text{
+    width: 410px;
+    padding: 30px;
+}
+
+.cardss__text--text{
+    font-family: "Cardo", serif;
+    width: 307px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B3764;
+    margin-bottom: 15px;
+}
+
+.cardss__text--paragrf{
+    width: 347px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+    margin-bottom: 28px;
+}
+
+.cardss__text--box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardss__box--text{
+    font-size: 19px;
+    font-weight: 700;
+    color: #1B3764;
+}
+
+.cardss__box--paragrf{
+    font-size: 17px;
+    font-weight: 400;
+    color: #1B3764;
+}
