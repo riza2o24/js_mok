@@ -319,3 +319,51 @@
     color: #B4C7E7;
     margin-top: 7px;
 }
+
+
+/* brend */
+
+.brend{
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.brend__text{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #1B3764;
+    font-family: "Cardo", serif;
+    margin-bottom: 60px;
+}
+
+
+.brend__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brend__img--text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B3764;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.quti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brend__img--paragrf{
+    margin: auto;
+    width: 228px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1B3764;
+}
