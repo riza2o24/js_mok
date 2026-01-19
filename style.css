@@ -75,6 +75,11 @@
 }
 
 
+.www{
+    display: flex;
+    align-items: center;
+}
+
 /* section */
 .section{
     width: 100%;
@@ -189,7 +194,7 @@
 .hero__box{
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 150px;
 }
 
 .hero__qoti--text{
@@ -244,6 +249,12 @@
     background: none;
 }
 
+
+.hero__qoti--btn:hover{
+    background-color: #FFCA42;
+    color: white;
+    transform: scale(1.05);
+}
 
 /* hero2 */
 .hero2{
@@ -558,6 +569,51 @@
 }
 
 
+/* hero4 */
+.hero4{
+    width: 100%;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero4__box{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.hero4__text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #1B3764;
+    margin-bottom: 75px;
+    font-family: "Cardo", serif;
+}
+
+.hero4__card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.hero4__cards{
+    width: 290px;
+    height: 299px;
+    background-color: #F4F8FF;
+    padding: 40px 30px;
+}
+
+.hero4__cards--paragrf{
+    width: 224px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cardo", serif;
+}
+
 /* cards */
 
 .cards{
@@ -634,4 +690,108 @@
     font-size: 17px;
     font-weight: 400;
     color: #1B3764;
+}
+
+
+
+
+@media (max-width:800px) {
+    .conteiner{
+        width: 100%;
+        max-width: 800px;
+        padding: 0 40px;
+        margin: auto;
+    }
+
+    .salom{
+        display: none;
+    }
+
+    .header_btn--ul{
+        display: none;
+    }
+
+    .section{
+        padding: 50px 40px;
+        display: block;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .blok{
+        margin-top: 80px;
+    }
+
+    .hero__box{
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .hero2{
+        display: block;
+        height: 1350px;
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+
+    .brend__img{
+        display: block;
+    }
+
+    .quti{
+        margin-bottom: 80px;
+    }
+
+    .salomat{
+        position: absolute;
+        margin-top: 550px;
+    }
+
+    .salomat2{
+        margin-top: 60px;
+    }
+
+    .hero3{
+        display: block;
+        height: 900px;
+        margin-bottom: 100px;
+    }
+    
+    .hero4__box{
+        display: block;
+    }
+
+    .mediyauchun{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .cards{
+        height: 2200px;
+    }
+
+    .card{
+        display: block;
+    }
+
+    .cardss{
+        margin-bottom: 50px;
+    }
+
+    .inpuot__box--qqq{
+        width: 340px;
+    }
+
+    .footer{
+        margin-top: 100px;
+        height: 1280px;
+    }
+
+    .footers{
+        display: block;
+    }
+
+    .dxx{
+        margin-bottom: 50px;
+    }
 }
