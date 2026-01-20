@@ -557,4 +557,6 @@
 }
 
 
-.qutivoy__text
+.qutivoy__text{
+    quotes: q;
+}
