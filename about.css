@@ -557,6 +557,7 @@
 
     .abouts{
         margin: auto;
+        src: format();
     }
 }
 
